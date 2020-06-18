@@ -5,5 +5,5 @@ def square_array(array)
     square_array << (array[count] ** 2)
     count = count + 1 
   end 
-  squared
+  return squared_array
 end
